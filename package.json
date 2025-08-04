@@ -1,16 +1,20 @@
 {
-  "name": "chai-backend",
-  "version": "1.0.0",
-  "description": "Its All About Backend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "JavaScript",
-    "Backend",
-    "chai"
-  ],
-  "author": "Hasnain Ali Bashir",
-  "license": "ISC"
+    "name": "chai-backend",
+    "version": "1.0.0",
+    "description": "Its All About Backend",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "JavaScript",
+        "Backend",
+        "chai"
+    ],
+    "author": "Hasnain Ali Bashir",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
 }
